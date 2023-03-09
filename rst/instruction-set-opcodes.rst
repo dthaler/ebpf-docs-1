@@ -10,7 +10,7 @@ opcode  src  imm   description                                          referenc
 0x0c    any  0x00  dst = (u32)((u32)dst + (u32)src)                     `Arithmetic instructions`_
 0x0f    any  0x00  dst += src                                           `Arithmetic instructions`_
 0x14    0x0  any   dst = (u32)((u32)dst - (u32)imm)                     `Arithmetic instructions`_
-0x15    0x0  any   if dst == imm goto +offset                           `Jump instructions`_
+0x15    0x0  any   if dst == imm goto +offset                           `Jump instructions <instruction-set.rst#jump-instructions>`_
 0x16    0x0  any   if (u32)dst == imm goto +offset                      `Jump instructions`_
 0x17    0x0  any   dst -= imm                                           `Arithmetic instructions`_
 0x18    0x0  any   dst = imm64                                          `64-bit immediate instructions`_
