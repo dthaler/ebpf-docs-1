@@ -287,7 +287,7 @@ For arithmetic and jump instructions (``ALU``, ``ALU64``, ``JMP`` and
 **s (source)**
   the source operand location, which unless otherwise specified is one of:
 
-.. table:: Source operand location
+  .. table:: Source operand location
 
   ======  =====  ==============================================
   source  value  description
@@ -547,7 +547,7 @@ For load and store instructions (``LD``, ``LDX``, ``ST``, and ``STX``), the
 **mode**
   The mode modifier is one of:
 
-.. table:: Mode modifier
+  .. table:: Mode modifier
 
     =============  =====  ====================================  =============
     mode modifier  value  description                           reference
@@ -563,7 +563,7 @@ For load and store instructions (``LD``, ``LDX``, ``ST``, and ``STX``), the
 **sz (size)**
   The size modifier is one of:
 
-.. table:: Size modifier
+  .. table:: Size modifier
 
     ====  =====  =====================
     size  value  description
